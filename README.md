@@ -9,7 +9,7 @@ Starter files for https://github.com/UNEPG/fritzing-obc
 2. Unzip the files to the desktop. 
 3. Double click to open the `fritzing-obc.fzz` file. 
 4. As we have explained earlier,  I2C is a simple two-wire serial protocol. To communicate with any i2c sensor, we need to connect their SDA and SCL lines and also need to power them via VCC and GND lines.
-5. Now let's connect the VSS lines of the sensors to the Raspberry Pi. It is a standard in electronics to use the red color as the default color for the VSS. 
+5. Now let's connect the VCC lines of the sensors to the Raspberry Pi. It is a standard in electronics to use the red color as the default color for the VCC. 
 6. And we use black wire to connect the GND. 
 7. Let's also connect the I2C clock line using the white color 
 8. Finally, lets connect the I2C data line using green wires. 
